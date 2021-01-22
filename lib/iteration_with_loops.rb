@@ -15,12 +15,11 @@ def find_min_in_nested_arrays(src)
      # binding.pry
       if b > a
         b = a
-     # else
-        
       end
       j += 1
     end
     smallest_numbers << b
+    b = 2147483647
     i += 1 
   end
   smallest_numbers
