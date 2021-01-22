@@ -19,6 +19,7 @@ def find_min_in_nested_arrays(src)
       j += 1
     end
     smallest_numbers << b
+    # I am sure there is a WAYYY better way to do this but yeah... ;(
     b = 2147483647
     i += 1 
   end
